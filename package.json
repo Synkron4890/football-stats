@@ -4,7 +4,8 @@
   "description": "Creation of package.jason",
   "main": "football-stats.js",
   "dependencies": {
-    "node_xslt": "~0.1.9"
+    "node_xslt": "~0.1.9",
+    "express": "~4.15.2"
   },
   "devDependencies": {},
   "scripts": {
