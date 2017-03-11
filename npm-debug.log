@@ -2,334 +2,246 @@
 1 verbose cli [ '/home/ubuntu/.nvm/v0.10.12/bin/node',
 1 verbose cli   '/home/ubuntu/.nvm/v0.10.12/bin/npm',
 1 verbose cli   'install',
-1 verbose cli   'js2xmlparser' ]
+1 verbose cli   'js2xmlparser',
+1 verbose cli   '--node_modules' ]
 2 info using npm@1.2.32
 3 info using node@v0.10.12
 4 verbose read json /home/ubuntu/workspace/package.json
 5 verbose read json /home/ubuntu/workspace/node_modules/body-parser/package.json
 6 verbose read json /home/ubuntu/workspace/node_modules/express/package.json
 7 verbose read json /home/ubuntu/workspace/node_modules/fs/package.json
-8 verbose read json /home/ubuntu/workspace/node_modules/node_xslt/package.json
-9 verbose from cache /home/ubuntu/workspace/package.json
-10 verbose readDependencies using package.json deps
-11 verbose cache add [ 'js2xmlparser', null ]
-12 verbose cache add name=undefined spec="js2xmlparser" args=["js2xmlparser",null]
-13 verbose parsed url { protocol: null,
-13 verbose parsed url   slashes: null,
-13 verbose parsed url   auth: null,
-13 verbose parsed url   host: null,
-13 verbose parsed url   port: null,
-13 verbose parsed url   hostname: null,
-13 verbose parsed url   hash: null,
-13 verbose parsed url   search: null,
-13 verbose parsed url   query: null,
-13 verbose parsed url   pathname: 'js2xmlparser',
-13 verbose parsed url   path: 'js2xmlparser',
-13 verbose parsed url   href: 'js2xmlparser' }
-14 silly lockFile d2a29b33-js2xmlparser js2xmlparser
-15 verbose lock js2xmlparser /home/ubuntu/.npm/d2a29b33-js2xmlparser.lock
-16 silly lockFile d2a29b33-js2xmlparser js2xmlparser
+8 verbose read json /home/ubuntu/workspace/node_modules/node/package.json
+9 verbose read json /home/ubuntu/workspace/node_modules/node_xslt/package.json
+10 verbose read json /home/ubuntu/workspace/node_modules/socket.io/package.json
+11 warn package.json node@0.0.0 No repository field.
+12 verbose from cache /home/ubuntu/workspace/package.json
+13 verbose readDependencies using package.json deps
+14 verbose cache add [ 'js2xmlparser', null ]
+15 verbose cache add name=undefined spec="js2xmlparser" args=["js2xmlparser",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'js2xmlparser',
+16 verbose parsed url   path: 'js2xmlparser',
+16 verbose parsed url   href: 'js2xmlparser' }
 17 silly lockFile d2a29b33-js2xmlparser js2xmlparser
-18 verbose addNamed [ 'js2xmlparser', '' ]
-19 verbose addNamed [ null, '' ]
-20 silly lockFile 7330136c-js2xmlparser js2xmlparser@
-21 verbose lock js2xmlparser@ /home/ubuntu/.npm/7330136c-js2xmlparser.lock
-22 silly addNameRange { name: 'js2xmlparser', range: '', hasData: false }
-23 verbose url raw js2xmlparser
-24 verbose url resolving [ 'https://registry.npmjs.org/', './js2xmlparser' ]
-25 verbose url resolved https://registry.npmjs.org/js2xmlparser
-26 info trying registry request attempt 1 at 17:05:42
-27 http GET https://registry.npmjs.org/js2xmlparser
-28 http 200 https://registry.npmjs.org/js2xmlparser
-29 silly registry.get cb [ 200,
-29 silly registry.get   { server: 'nginx/1.10.1',
-29 silly registry.get     'content-type': 'application/json',
-29 silly registry.get     'last-modified': 'Wed, 22 Feb 2017 04:24:51 GMT',
-29 silly registry.get     etag: '"58ad1293-5d7e"',
-29 silly registry.get     'cache-control': 'max-age=300',
-29 silly registry.get     'content-length': '23934',
-29 silly registry.get     'accept-ranges': 'bytes',
-29 silly registry.get     date: 'Sat, 11 Mar 2017 17:05:43 GMT',
-29 silly registry.get     via: '1.1 varnish',
-29 silly registry.get     age: '158',
-29 silly registry.get     connection: 'keep-alive',
-29 silly registry.get     'x-served-by': 'cache-lcy1124-LCY',
-29 silly registry.get     'x-cache': 'HIT',
-29 silly registry.get     'x-cache-hits': '1',
-29 silly registry.get     'x-timer': 'S1489251943.044419,VS0,VE0',
-29 silly registry.get     vary: 'Accept-Encoding' } ]
-30 silly addNameRange number 2 { name: 'js2xmlparser', range: '', hasData: true }
-31 silly addNameRange versions [ 'js2xmlparser',
-31 silly addNameRange   [ '0.1.0',
-31 silly addNameRange     '0.1.1',
-31 silly addNameRange     '0.1.2',
-31 silly addNameRange     '0.1.3',
-31 silly addNameRange     '0.1.4',
-31 silly addNameRange     '0.1.5',
-31 silly addNameRange     '0.1.6',
-31 silly addNameRange     '0.1.7',
-31 silly addNameRange     '0.1.8',
-31 silly addNameRange     '0.1.9',
-31 silly addNameRange     '1.0.0',
-31 silly addNameRange     '2.0.0',
-31 silly addNameRange     '2.0.1',
-31 silly addNameRange     '2.0.2',
-31 silly addNameRange     '3.0.0' ] ]
-32 verbose addNamed [ 'js2xmlparser', '3.0.0' ]
-33 verbose addNamed [ '3.0.0', '3.0.0' ]
-34 silly lockFile 0494bc28-js2xmlparser-3-0-0 js2xmlparser@3.0.0
-35 verbose lock js2xmlparser@3.0.0 /home/ubuntu/.npm/0494bc28-js2xmlparser-3-0-0.lock
-36 silly lockFile 34ec26b8-xmlparser-js2xmlparser-3-0-0-tgz https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz
-37 verbose lock https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz /home/ubuntu/.npm/34ec26b8-xmlparser-js2xmlparser-3-0-0-tgz.lock
-38 verbose addRemoteTarball [ 'https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz',
-38 verbose addRemoteTarball   '3fb60eaa089c5440f9319f51760ccd07e2499733' ]
-39 info retry fetch attempt 1 at 17:05:43
-40 verbose fetch to= /home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/tmp.tgz
-41 http GET https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz
-42 http 200 https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz
-43 verbose tar unpack /home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/tmp.tgz
-44 silly lockFile e3338107-43064-0-2901538093574345-package tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-45 verbose lock tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package /home/ubuntu/.npm/e3338107-43064-0-2901538093574345-package.lock
-46 silly lockFile e5d2355f-43064-0-2901538093574345-tmp-tgz tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/tmp.tgz
-47 verbose lock tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/tmp.tgz /home/ubuntu/.npm/e5d2355f-43064-0-2901538093574345-tmp-tgz.lock
-48 silly gunzTarPerm modes [ '755', '644' ]
-49 silly gunzTarPerm extractEntry package.json
-50 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
-51 silly gunzTarPerm extractEntry README.md
-52 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
-53 silly gunzTarPerm extractEntry CHANGES.md
-54 silly gunzTarPerm modified mode [ 'CHANGES.md', 438, 420 ]
-55 silly gunzTarPerm extractEntry LICENSE.md
-56 silly gunzTarPerm modified mode [ 'LICENSE.md', 438, 420 ]
-57 silly gunzTarPerm extractEntry NOTICE.md
-58 silly gunzTarPerm modified mode [ 'NOTICE.md', 438, 420 ]
-59 silly gunzTarPerm extractEntry lib/main.js
-60 silly gunzTarPerm modified mode [ 'lib/main.js', 438, 420 ]
-61 silly gunzTarPerm extractEntry lib/options.js
-62 silly gunzTarPerm modified mode [ 'lib/options.js', 438, 420 ]
-63 silly gunzTarPerm extractEntry lib/utils.js
-64 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
-65 silly gunzTarPerm extractEntry lib/main.d.ts
-66 silly gunzTarPerm modified mode [ 'lib/main.d.ts', 438, 420 ]
+18 verbose lock js2xmlparser /home/ubuntu/.npm/d2a29b33-js2xmlparser.lock
+19 silly lockFile d2a29b33-js2xmlparser js2xmlparser
+20 silly lockFile d2a29b33-js2xmlparser js2xmlparser
+21 verbose addNamed [ 'js2xmlparser', '' ]
+22 verbose addNamed [ null, '' ]
+23 silly lockFile 7330136c-js2xmlparser js2xmlparser@
+24 verbose lock js2xmlparser@ /home/ubuntu/.npm/7330136c-js2xmlparser.lock
+25 silly addNameRange { name: 'js2xmlparser', range: '', hasData: false }
+26 verbose url raw js2xmlparser
+27 verbose url resolving [ 'https://registry.npmjs.org/', './js2xmlparser' ]
+28 verbose url resolved https://registry.npmjs.org/js2xmlparser
+29 info trying registry request attempt 1 at 22:00:25
+30 verbose etag "58ad1293-5d7e"
+31 http GET https://registry.npmjs.org/js2xmlparser
+32 http 304 https://registry.npmjs.org/js2xmlparser
+33 silly registry.get cb [ 304,
+33 silly registry.get   { date: 'Sat, 11 Mar 2017 22:00:25 GMT',
+33 silly registry.get     via: '1.1 varnish',
+33 silly registry.get     'cache-control': 'max-age=300',
+33 silly registry.get     etag: '"58ad1293-5d7e"',
+33 silly registry.get     age: '0',
+33 silly registry.get     connection: 'keep-alive',
+33 silly registry.get     'x-served-by': 'cache-lcy1141-LCY',
+33 silly registry.get     'x-cache': 'MISS',
+33 silly registry.get     'x-cache-hits': '0',
+33 silly registry.get     'x-timer': 'S1489269625.797710,VS0,VE17',
+33 silly registry.get     vary: 'Accept-Encoding' } ]
+34 verbose etag js2xmlparser from cache
+35 silly addNameRange number 2 { name: 'js2xmlparser', range: '', hasData: true }
+36 silly addNameRange versions [ 'js2xmlparser',
+36 silly addNameRange   [ '0.1.0',
+36 silly addNameRange     '0.1.1',
+36 silly addNameRange     '0.1.2',
+36 silly addNameRange     '0.1.3',
+36 silly addNameRange     '0.1.4',
+36 silly addNameRange     '0.1.5',
+36 silly addNameRange     '0.1.6',
+36 silly addNameRange     '0.1.7',
+36 silly addNameRange     '0.1.8',
+36 silly addNameRange     '0.1.9',
+36 silly addNameRange     '1.0.0',
+36 silly addNameRange     '2.0.0',
+36 silly addNameRange     '2.0.1',
+36 silly addNameRange     '2.0.2',
+36 silly addNameRange     '3.0.0' ] ]
+37 verbose addNamed [ 'js2xmlparser', '3.0.0' ]
+38 verbose addNamed [ '3.0.0', '3.0.0' ]
+39 silly lockFile 0494bc28-js2xmlparser-3-0-0 js2xmlparser@3.0.0
+40 verbose lock js2xmlparser@3.0.0 /home/ubuntu/.npm/0494bc28-js2xmlparser-3-0-0.lock
+41 verbose read json /home/ubuntu/.npm/js2xmlparser/3.0.0/package/package.json
+42 silly lockFile 0494bc28-js2xmlparser-3-0-0 js2xmlparser@3.0.0
+43 silly lockFile 0494bc28-js2xmlparser-3-0-0 js2xmlparser@3.0.0
+44 silly lockFile 7330136c-js2xmlparser js2xmlparser@
+45 silly lockFile 7330136c-js2xmlparser js2xmlparser@
+46 silly resolved [ { name: 'js2xmlparser',
+46 silly resolved     version: '3.0.0',
+46 silly resolved     description: 'Parses JavaScript objects into XML',
+46 silly resolved     keywords:
+46 silly resolved      [ 'convert',
+46 silly resolved        'converter',
+46 silly resolved        'javascript',
+46 silly resolved        'js',
+46 silly resolved        'json',
+46 silly resolved        'object',
+46 silly resolved        'objects',
+46 silly resolved        'parse',
+46 silly resolved        'parser',
+46 silly resolved        'xml' ],
+46 silly resolved     license: 'Apache-2.0',
+46 silly resolved     author: { name: 'Michael Kourlas', email: 'michael@kourlas.net' },
+46 silly resolved     files:
+46 silly resolved      [ 'lib',
+46 silly resolved        'CHANGES.md',
+46 silly resolved        'LICENSE.md',
+46 silly resolved        'NOTICE.md',
+46 silly resolved        'package.json',
+46 silly resolved        'README.md' ],
+46 silly resolved     main: './lib/main.js',
+46 silly resolved     typings: './lib/main',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git://github.com/michaelkourlas/node-js2xmlparser.git' },
+46 silly resolved     dependencies: { xmlcreate: '^1.0.1' },
+46 silly resolved     devDependencies:
+46 silly resolved      { '@types/chai': '^3.4.35',
+46 silly resolved        '@types/mocha': '^2.2.39',
+46 silly resolved        chai: '^3.5.0',
+46 silly resolved        del: '^2.2.2',
+46 silly resolved        gulp: '^3.9.1',
+46 silly resolved        'gulp-mocha': '^4.0.1',
+46 silly resolved        'gulp-sourcemaps': '^2.4.1',
+46 silly resolved        'gulp-tslint': '^7.1.0',
+46 silly resolved        'gulp-typedoc': '^2.0.2',
+46 silly resolved        'gulp-typescript': '^3.1.5',
+46 silly resolved        merge2: '^1.0.3',
+46 silly resolved        mocha: '^3.2.0',
+46 silly resolved        tslint: '^4.4.2',
+46 silly resolved        typedoc: '^0.5.7',
+46 silly resolved        typescript: '^2.1.6' },
+46 silly resolved     readme: '# js2xmlparser #\r\n\r\n[![Build Status](https://travis-ci.org/michaelkourlas/node-js2xmlparser.svg?branch=master)](https://travis-ci.org/michaelkourlas/node-js2xmlparser)\r\n[![npm version](https://badge.fury.io/js/js2xmlparser.svg)](https://badge.fury.io/js/js2xmlparser)\r\n\r\n## Overview ##\r\n\r\njs2xmlparser is a Node.js module that parses JavaScript objects into XML.\r\n\r\n## Features ##\r\n\r\nSince XML is a data-interchange format, js2xmlparser is designed primarily for \r\nJSON-type objects, arrays and primitive data types, like many of the other \r\nJavaScript to XML parsers currently available for Node.js.\r\n\r\nHowever, js2xmlparser is capable of parsing any object, including native \r\nJavaScript objects such as `Date` and `RegExp`, by taking advantage of each\r\nobject\'s `toString` function or, if this function does not exist, the `String`\r\nconstructor.\r\n\r\njs2xmlparser also has support for the new `Map` and `Set` objects introduced in\r\nECMAScript 2015, treating them as JSON-type objects and arrays respectively.\r\nSupport for `Map`s is necessary to generate XML with elements in a specific\r\norder, since JSON-type objects do not guarantee insertion order. `Map` keys are \r\nalways converted to strings using the method described above.\r\n\r\njs2xmlparser also supports a number of constructs unique to XML:\r\n\r\n* attributes (through an attribute property in objects)\r\n* mixed content (through value properties in objects)\r\n* multiple elements with the same name (through arrays)\r\n\r\njs2xmlparser can also pretty-print the XML it outputs.\r\n\r\n## Installation ##\r\n\r\nThe easiest way to install js2xmlparser is using npm:\r\n\r\n```\r\nnpm install js2xmlparser\r\n```\r\n\r\nYou can also build js2xmlparser from source using gulp:\r\n\r\n```\r\ngit clone https://github.com/michaelkourlas/node-js2xmlparser.git\r\nnpm install\r\ngulp\r\n```\r\n\r\nYou\'ll need to install gulp first if you don\'t have it:\r\n\r\n```\r\nnpm install -g gulp\r\n```\r\n\r\nYou can then copy the folder into your node_modules directory.\r\n\r\nThe `default` target will build the production variant of js2xmlparser, run all\r\ntests, and build the documentation.\r\n\r\nYou can build the production variant without running tests using the target\r\n`prod`. You can also build the development version using the target `dev`. At\r\nthe moment, the only difference between the two is that the development version\r\nincludes source maps.\r\n\r\n## Usage ##\r\n\r\nThe documentation for the current version is available [here](http://www.kourlas.com/node-js2xmlparser/docs/3.0.0/).\r\n\r\nYou can also build the documentation using gulp:\r\n\r\n```\r\ngulp docs\r\n```\r\n\r\n## Examples ##\r\n\r\nThe following example illustrates the basic usage of js2xmlparser:\r\n\r\n```javascript\r\nvar js2xmlparser = require("js2xmlparser");\r\n\r\nvar obj = {\r\n    "firstName": "John",\r\n    "lastName": "Smith",\r\n    "dateOfBirth": new Date(1964, 7, 26),\r\n    "address": {\r\n        "@": {\r\n            "type": "home"\r\n        },\r\n        "streetAddress": "3212 22nd St",\r\n        "city": "Chicago",\r\n        "state": "Illinois",\r\n        "zip": 10000\r\n    },\r\n    "phone": [\r\n        {\r\n            "@": {\r\n                "type": "home"\r\n            },\r\n            "#": "123-555-4567"\r\n        },\r\n        {\r\n            "@": {\r\n                "type": "cell"\r\n            },\r\n            "#": "890-555-1234"\r\n        },\r\n        {\r\n            "@": {\r\n                "type": "work"\r\n            },\r\n            "#": "567-555-8901"\r\n        }\r\n    ],\r\n    "email": "john@smith.com"\r\n};\r\n\r\nconsole.log(js2xmlparser.parse("person", obj));\r\n```\r\n\r\nThis example produces the following XML:\r\n\r\n```xml\r\n<?xml version=\'1.0\'?>\r\n<person>\r\n    <firstName>John</firstName>\r\n    <lastName>Smith</lastName>\r\n    <dateOfBirth>Wed Aug 26 1964 00:00:00 GMT-0400 (Eastern Summer Time)</dateOfBirth>\r\n    <address type=\'home\'>\r\n        <streetAddress>3212 22nd St</streetAddress>\r\n        <city>Chicago</city>\r\n        <state>Illinois</state>\r\n        <zip>10000</zip>\r\n    </address>\r\n    <phone type=\'home\'>123-555-4567</phone>\r\n    <phone type=\'cell\'>890-555-1234</phone>\r\n    <phone type=\'work\'>567-555-8901</phone>\r\n    <email>john@smith.com</email>\r\n</person>\r\n```\r\n\r\nAdditional examples can be found in examples/example.js.\r\n\r\n## Tests ##\r\n\r\njs2xmlparser includes a set of tests to verify core functionality. You can run\r\nthe tests using gulp:\r\n\r\n```\r\ngulp test\r\n```\r\n\r\nThe `test` target builds the production variant of js2xmlparser before running\r\nthe tests. The `test-prod` target does the same thing, while the `test-dev`\r\ntarget builds the development variant first instead.\r\n\r\n## License ##\r\n\r\njs2xmlparser is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).\r\nPlease see the LICENSE.md file for more information.\r\n',
+46 silly resolved     readmeFilename: 'README.md',
+46 silly resolved     bugs: { url: 'https://github.com/michaelkourlas/node-js2xmlparser/issues' },
+46 silly resolved     _id: 'js2xmlparser@3.0.0',
+46 silly resolved     _from: 'js2xmlparser@' } ]
+47 info install js2xmlparser@3.0.0 into /home/ubuntu/workspace
+48 info installOne js2xmlparser@3.0.0
+49 verbose from cache /home/ubuntu/.npm/js2xmlparser/3.0.0/package/package.json
+50 info /home/ubuntu/workspace/node_modules/js2xmlparser unbuild
+51 verbose read json /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
+52 verbose tar unpack /home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
+53 silly lockFile da4a118b-kspace-node-modules-js2xmlparser tar:///home/ubuntu/workspace/node_modules/js2xmlparser
+54 verbose lock tar:///home/ubuntu/workspace/node_modules/js2xmlparser /home/ubuntu/.npm/da4a118b-kspace-node-modules-js2xmlparser.lock
+55 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
+56 verbose lock tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz /home/ubuntu/.npm/ab6c7fde-m-js2xmlparser-3-0-0-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry CHANGES.md
+61 silly gunzTarPerm extractEntry LICENSE.md
+62 silly gunzTarPerm extractEntry NOTICE.md
+63 silly gunzTarPerm extractEntry lib/main.js
+64 silly gunzTarPerm extractEntry lib/options.js
+65 silly gunzTarPerm extractEntry lib/utils.js
+66 silly gunzTarPerm extractEntry lib/main.d.ts
 67 silly gunzTarPerm extractEntry lib/options.d.ts
-68 silly gunzTarPerm modified mode [ 'lib/options.d.ts', 438, 420 ]
-69 silly gunzTarPerm extractEntry lib/utils.d.ts
-70 silly gunzTarPerm modified mode [ 'lib/utils.d.ts', 438, 420 ]
-71 verbose read json /home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package/package.json
-72 silly lockFile e3338107-43064-0-2901538093574345-package tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-73 silly lockFile e3338107-43064-0-2901538093574345-package tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-74 silly lockFile e5d2355f-43064-0-2901538093574345-tmp-tgz tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/tmp.tgz
-75 silly lockFile e5d2355f-43064-0-2901538093574345-tmp-tgz tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/tmp.tgz
-76 verbose from cache /home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package/package.json
-77 verbose tar pack [ '/home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz',
-77 verbose tar pack   '/home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package' ]
-78 verbose tarball /home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-79 verbose folder /home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-80 silly lockFile e3338107-43064-0-2901538093574345-package tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-81 verbose lock tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package /home/ubuntu/.npm/e3338107-43064-0-2901538093574345-package.lock
-82 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-83 verbose lock tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz /home/ubuntu/.npm/ab6c7fde-m-js2xmlparser-3-0-0-package-tgz.lock
-84 silly lockFile e3338107-43064-0-2901538093574345-package tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-85 silly lockFile e3338107-43064-0-2901538093574345-package tar:///home/ubuntu/tmp/npm-7416/1489251943064-0.2901538093574345/package
-86 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-87 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-88 silly lockFile 4bdeb73f-u-npm-js2xmlparser-3-0-0-package /home/ubuntu/.npm/js2xmlparser/3.0.0/package
-89 verbose lock /home/ubuntu/.npm/js2xmlparser/3.0.0/package /home/ubuntu/.npm/4bdeb73f-u-npm-js2xmlparser-3-0-0-package.lock
-90 silly lockFile 4bdeb73f-u-npm-js2xmlparser-3-0-0-package /home/ubuntu/.npm/js2xmlparser/3.0.0/package
-91 silly lockFile 4bdeb73f-u-npm-js2xmlparser-3-0-0-package /home/ubuntu/.npm/js2xmlparser/3.0.0/package
-92 verbose tar unpack /home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-93 silly lockFile 08dcfc4d-u-npm-js2xmlparser-3-0-0-package tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package
-94 verbose lock tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package /home/ubuntu/.npm/08dcfc4d-u-npm-js2xmlparser-3-0-0-package.lock
-95 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-96 verbose lock tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz /home/ubuntu/.npm/ab6c7fde-m-js2xmlparser-3-0-0-package-tgz.lock
-97 silly gunzTarPerm modes [ '755', '644' ]
-98 silly gunzTarPerm extractEntry package.json
-99 silly gunzTarPerm extractEntry README.md
-100 silly gunzTarPerm extractEntry CHANGES.md
-101 silly gunzTarPerm extractEntry LICENSE.md
-102 silly gunzTarPerm extractEntry NOTICE.md
-103 silly gunzTarPerm extractEntry lib/main.js
-104 silly gunzTarPerm extractEntry lib/options.js
-105 silly gunzTarPerm extractEntry lib/utils.js
-106 silly gunzTarPerm extractEntry lib/main.d.ts
-107 silly gunzTarPerm extractEntry lib/options.d.ts
-108 silly gunzTarPerm extractEntry lib/utils.d.ts
-109 verbose read json /home/ubuntu/.npm/js2xmlparser/3.0.0/package/package.json
-110 silly lockFile 08dcfc4d-u-npm-js2xmlparser-3-0-0-package tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package
-111 silly lockFile 08dcfc4d-u-npm-js2xmlparser-3-0-0-package tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package
-112 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-113 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-114 verbose from cache /home/ubuntu/.npm/js2xmlparser/3.0.0/package/package.json
-115 verbose chmod /home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz 644
-116 verbose chown /home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz [ 1000, 1000 ]
-117 silly lockFile 34ec26b8-xmlparser-js2xmlparser-3-0-0-tgz https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz
-118 silly lockFile 34ec26b8-xmlparser-js2xmlparser-3-0-0-tgz https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz
-119 silly lockFile 0494bc28-js2xmlparser-3-0-0 js2xmlparser@3.0.0
-120 silly lockFile 0494bc28-js2xmlparser-3-0-0 js2xmlparser@3.0.0
-121 silly lockFile 7330136c-js2xmlparser js2xmlparser@
-122 silly lockFile 7330136c-js2xmlparser js2xmlparser@
-123 silly resolved [ { name: 'js2xmlparser',
-123 silly resolved     version: '3.0.0',
-123 silly resolved     description: 'Parses JavaScript objects into XML',
-123 silly resolved     keywords:
-123 silly resolved      [ 'convert',
-123 silly resolved        'converter',
-123 silly resolved        'javascript',
-123 silly resolved        'js',
-123 silly resolved        'json',
-123 silly resolved        'object',
-123 silly resolved        'objects',
-123 silly resolved        'parse',
-123 silly resolved        'parser',
-123 silly resolved        'xml' ],
-123 silly resolved     license: 'Apache-2.0',
-123 silly resolved     author: { name: 'Michael Kourlas', email: 'michael@kourlas.net' },
-123 silly resolved     files:
-123 silly resolved      [ 'lib',
-123 silly resolved        'CHANGES.md',
-123 silly resolved        'LICENSE.md',
-123 silly resolved        'NOTICE.md',
-123 silly resolved        'package.json',
-123 silly resolved        'README.md' ],
-123 silly resolved     main: './lib/main.js',
-123 silly resolved     typings: './lib/main',
-123 silly resolved     repository:
-123 silly resolved      { type: 'git',
-123 silly resolved        url: 'git://github.com/michaelkourlas/node-js2xmlparser.git' },
-123 silly resolved     dependencies: { xmlcreate: '^1.0.1' },
-123 silly resolved     devDependencies:
-123 silly resolved      { '@types/chai': '^3.4.35',
-123 silly resolved        '@types/mocha': '^2.2.39',
-123 silly resolved        chai: '^3.5.0',
-123 silly resolved        del: '^2.2.2',
-123 silly resolved        gulp: '^3.9.1',
-123 silly resolved        'gulp-mocha': '^4.0.1',
-123 silly resolved        'gulp-sourcemaps': '^2.4.1',
-123 silly resolved        'gulp-tslint': '^7.1.0',
-123 silly resolved        'gulp-typedoc': '^2.0.2',
-123 silly resolved        'gulp-typescript': '^3.1.5',
-123 silly resolved        merge2: '^1.0.3',
-123 silly resolved        mocha: '^3.2.0',
-123 silly resolved        tslint: '^4.4.2',
-123 silly resolved        typedoc: '^0.5.7',
-123 silly resolved        typescript: '^2.1.6' },
-123 silly resolved     readme: '# js2xmlparser #\r\n\r\n[![Build Status](https://travis-ci.org/michaelkourlas/node-js2xmlparser.svg?branch=master)](https://travis-ci.org/michaelkourlas/node-js2xmlparser)\r\n[![npm version](https://badge.fury.io/js/js2xmlparser.svg)](https://badge.fury.io/js/js2xmlparser)\r\n\r\n## Overview ##\r\n\r\njs2xmlparser is a Node.js module that parses JavaScript objects into XML.\r\n\r\n## Features ##\r\n\r\nSince XML is a data-interchange format, js2xmlparser is designed primarily for \r\nJSON-type objects, arrays and primitive data types, like many of the other \r\nJavaScript to XML parsers currently available for Node.js.\r\n\r\nHowever, js2xmlparser is capable of parsing any object, including native \r\nJavaScript objects such as `Date` and `RegExp`, by taking advantage of each\r\nobject\'s `toString` function or, if this function does not exist, the `String`\r\nconstructor.\r\n\r\njs2xmlparser also has support for the new `Map` and `Set` objects introduced in\r\nECMAScript 2015, treating them as JSON-type objects and arrays respectively.\r\nSupport for `Map`s is necessary to generate XML with elements in a specific\r\norder, since JSON-type objects do not guarantee insertion order. `Map` keys are \r\nalways converted to strings using the method described above.\r\n\r\njs2xmlparser also supports a number of constructs unique to XML:\r\n\r\n* attributes (through an attribute property in objects)\r\n* mixed content (through value properties in objects)\r\n* multiple elements with the same name (through arrays)\r\n\r\njs2xmlparser can also pretty-print the XML it outputs.\r\n\r\n## Installation ##\r\n\r\nThe easiest way to install js2xmlparser is using npm:\r\n\r\n```\r\nnpm install js2xmlparser\r\n```\r\n\r\nYou can also build js2xmlparser from source using gulp:\r\n\r\n```\r\ngit clone https://github.com/michaelkourlas/node-js2xmlparser.git\r\nnpm install\r\ngulp\r\n```\r\n\r\nYou\'ll need to install gulp first if you don\'t have it:\r\n\r\n```\r\nnpm install -g gulp\r\n```\r\n\r\nYou can then copy the folder into your node_modules directory.\r\n\r\nThe `default` target will build the production variant of js2xmlparser, run all\r\ntests, and build the documentation.\r\n\r\nYou can build the production variant without running tests using the target\r\n`prod`. You can also build the development version using the target `dev`. At\r\nthe moment, the only difference between the two is that the development version\r\nincludes source maps.\r\n\r\n## Usage ##\r\n\r\nThe documentation for the current version is available [here](http://www.kourlas.com/node-js2xmlparser/docs/3.0.0/).\r\n\r\nYou can also build the documentation using gulp:\r\n\r\n```\r\ngulp docs\r\n```\r\n\r\n## Examples ##\r\n\r\nThe following example illustrates the basic usage of js2xmlparser:\r\n\r\n```javascript\r\nvar js2xmlparser = require("js2xmlparser");\r\n\r\nvar obj = {\r\n    "firstName": "John",\r\n    "lastName": "Smith",\r\n    "dateOfBirth": new Date(1964, 7, 26),\r\n    "address": {\r\n        "@": {\r\n            "type": "home"\r\n        },\r\n        "streetAddress": "3212 22nd St",\r\n        "city": "Chicago",\r\n        "state": "Illinois",\r\n        "zip": 10000\r\n    },\r\n    "phone": [\r\n        {\r\n            "@": {\r\n                "type": "home"\r\n            },\r\n            "#": "123-555-4567"\r\n        },\r\n        {\r\n            "@": {\r\n                "type": "cell"\r\n            },\r\n            "#": "890-555-1234"\r\n        },\r\n        {\r\n            "@": {\r\n                "type": "work"\r\n            },\r\n            "#": "567-555-8901"\r\n        }\r\n    ],\r\n    "email": "john@smith.com"\r\n};\r\n\r\nconsole.log(js2xmlparser.parse("person", obj));\r\n```\r\n\r\nThis example produces the following XML:\r\n\r\n```xml\r\n<?xml version=\'1.0\'?>\r\n<person>\r\n    <firstName>John</firstName>\r\n    <lastName>Smith</lastName>\r\n    <dateOfBirth>Wed Aug 26 1964 00:00:00 GMT-0400 (Eastern Summer Time)</dateOfBirth>\r\n    <address type=\'home\'>\r\n        <streetAddress>3212 22nd St</streetAddress>\r\n        <city>Chicago</city>\r\n        <state>Illinois</state>\r\n        <zip>10000</zip>\r\n    </address>\r\n    <phone type=\'home\'>123-555-4567</phone>\r\n    <phone type=\'cell\'>890-555-1234</phone>\r\n    <phone type=\'work\'>567-555-8901</phone>\r\n    <email>john@smith.com</email>\r\n</person>\r\n```\r\n\r\nAdditional examples can be found in examples/example.js.\r\n\r\n## Tests ##\r\n\r\njs2xmlparser includes a set of tests to verify core functionality. You can run\r\nthe tests using gulp:\r\n\r\n```\r\ngulp test\r\n```\r\n\r\nThe `test` target builds the production variant of js2xmlparser before running\r\nthe tests. The `test-prod` target does the same thing, while the `test-dev`\r\ntarget builds the development variant first instead.\r\n\r\n## License ##\r\n\r\njs2xmlparser is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).\r\nPlease see the LICENSE.md file for more information.\r\n',
-123 silly resolved     readmeFilename: 'README.md',
-123 silly resolved     bugs: { url: 'https://github.com/michaelkourlas/node-js2xmlparser/issues' },
-123 silly resolved     _id: 'js2xmlparser@3.0.0',
-123 silly resolved     dist: { shasum: '53926c830cca56989dca56b698da0f0d3c2b5e18' },
-123 silly resolved     _from: 'js2xmlparser@',
-123 silly resolved     _resolved: 'https://registry.npmjs.org/js2xmlparser/-/js2xmlparser-3.0.0.tgz' } ]
-124 info install js2xmlparser@3.0.0 into /home/ubuntu/workspace
-125 info installOne js2xmlparser@3.0.0
-126 verbose from cache /home/ubuntu/.npm/js2xmlparser/3.0.0/package/package.json
-127 info /home/ubuntu/workspace/node_modules/js2xmlparser unbuild
-128 verbose read json /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
-129 verbose tar unpack /home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-130 silly lockFile da4a118b-kspace-node-modules-js2xmlparser tar:///home/ubuntu/workspace/node_modules/js2xmlparser
-131 verbose lock tar:///home/ubuntu/workspace/node_modules/js2xmlparser /home/ubuntu/.npm/da4a118b-kspace-node-modules-js2xmlparser.lock
-132 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-133 verbose lock tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz /home/ubuntu/.npm/ab6c7fde-m-js2xmlparser-3-0-0-package-tgz.lock
-134 silly gunzTarPerm modes [ '755', '644' ]
-135 silly gunzTarPerm extractEntry package.json
-136 silly gunzTarPerm extractEntry README.md
-137 silly gunzTarPerm extractEntry CHANGES.md
-138 silly gunzTarPerm extractEntry LICENSE.md
-139 silly gunzTarPerm extractEntry NOTICE.md
-140 silly gunzTarPerm extractEntry lib/main.js
-141 silly gunzTarPerm extractEntry lib/options.js
-142 silly gunzTarPerm extractEntry lib/utils.js
-143 silly gunzTarPerm extractEntry lib/main.d.ts
-144 silly gunzTarPerm extractEntry lib/options.d.ts
-145 silly gunzTarPerm extractEntry lib/utils.d.ts
-146 verbose read json /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
-147 silly lockFile da4a118b-kspace-node-modules-js2xmlparser tar:///home/ubuntu/workspace/node_modules/js2xmlparser
-148 silly lockFile da4a118b-kspace-node-modules-js2xmlparser tar:///home/ubuntu/workspace/node_modules/js2xmlparser
-149 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-150 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
-151 info preinstall js2xmlparser@3.0.0
-152 verbose from cache /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
-153 verbose readDependencies using package.json deps
-154 verbose from cache /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
-155 verbose readDependencies using package.json deps
-156 verbose cache add [ 'xmlcreate@^1.0.1', null ]
-157 verbose cache add name=undefined spec="xmlcreate@^1.0.1" args=["xmlcreate@^1.0.1",null]
-158 verbose parsed url { protocol: null,
-158 verbose parsed url   slashes: null,
-158 verbose parsed url   auth: null,
-158 verbose parsed url   host: null,
-158 verbose parsed url   port: null,
-158 verbose parsed url   hostname: null,
-158 verbose parsed url   hash: null,
-158 verbose parsed url   search: null,
-158 verbose parsed url   query: null,
-158 verbose parsed url   pathname: 'xmlcreate@^1.0.1',
-158 verbose parsed url   path: 'xmlcreate@^1.0.1',
-158 verbose parsed url   href: 'xmlcreate@^1.0.1' }
-159 verbose cache add name="xmlcreate" spec="^1.0.1" args=["xmlcreate","^1.0.1"]
-160 verbose parsed url { protocol: null,
-160 verbose parsed url   slashes: null,
-160 verbose parsed url   auth: null,
-160 verbose parsed url   host: null,
-160 verbose parsed url   port: null,
-160 verbose parsed url   hostname: null,
-160 verbose parsed url   hash: null,
-160 verbose parsed url   search: null,
-160 verbose parsed url   query: null,
-160 verbose parsed url   pathname: '^1.0.1',
-160 verbose parsed url   path: '^1.0.1',
-160 verbose parsed url   href: '^1.0.1' }
-161 verbose addNamed [ 'xmlcreate', '^1.0.1' ]
-162 verbose addNamed [ null, null ]
-163 silly lockFile 20802e48-xmlcreate-1-0-1 xmlcreate@^1.0.1
-164 verbose lock xmlcreate@^1.0.1 /home/ubuntu/.npm/20802e48-xmlcreate-1-0-1.lock
-165 info addNameTag [ 'xmlcreate', '^1.0.1' ]
-166 verbose url raw xmlcreate
-167 verbose url resolving [ 'https://registry.npmjs.org/', './xmlcreate' ]
-168 verbose url resolved https://registry.npmjs.org/xmlcreate
-169 info trying registry request attempt 1 at 17:05:43
-170 http GET https://registry.npmjs.org/xmlcreate
-171 http 200 https://registry.npmjs.org/xmlcreate
-172 silly registry.get cb [ 200,
-172 silly registry.get   { server: 'nginx/1.10.1',
-172 silly registry.get     'content-type': 'application/json',
-172 silly registry.get     'last-modified': 'Tue, 07 Mar 2017 01:41:51 GMT',
-172 silly registry.get     etag: '"58be0fdf-36a2"',
-172 silly registry.get     'cache-control': 'max-age=300',
-172 silly registry.get     'content-length': '13986',
-172 silly registry.get     'accept-ranges': 'bytes',
-172 silly registry.get     date: 'Sat, 11 Mar 2017 17:05:43 GMT',
-172 silly registry.get     via: '1.1 varnish',
-172 silly registry.get     age: '0',
-172 silly registry.get     connection: 'keep-alive',
-172 silly registry.get     'x-served-by': 'cache-lcy1141-LCY',
-172 silly registry.get     'x-cache': 'MISS',
-172 silly registry.get     'x-cache-hits': '0',
-172 silly registry.get     'x-timer': 'S1489251943.283969,VS0,VE73',
-172 silly registry.get     vary: 'Accept-Encoding' } ]
-173 silly lockFile 20802e48-xmlcreate-1-0-1 xmlcreate@^1.0.1
-174 silly lockFile 20802e48-xmlcreate-1-0-1 xmlcreate@^1.0.1
-175 verbose about to build /home/ubuntu/workspace/node_modules/js2xmlparser
-176 info /home/ubuntu/workspace/node_modules/js2xmlparser unbuild
-177 verbose from cache /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
-178 info preuninstall js2xmlparser@3.0.0
-179 info uninstall js2xmlparser@3.0.0
-180 verbose true,/home/ubuntu/workspace/node_modules,/home/ubuntu/workspace/node_modules unbuild js2xmlparser@3.0.0
-181 info postuninstall js2xmlparser@3.0.0
-182 error Error: No compatible version found: xmlcreate@'^1.0.1'
-182 error Valid install targets:
-182 error ["0.1.0","0.1.1","1.0.0","1.0.1","1.0.2"]
-182 error     at installTargetsError (/home/ubuntu/.nvm/v0.10.12/lib/node_modules/npm/lib/cache.js:719:10)
-182 error     at /home/ubuntu/.nvm/v0.10.12/lib/node_modules/npm/lib/cache.js:641:10
-182 error     at saved (/home/ubuntu/.nvm/v0.10.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
-182 error     at Object.oncomplete (fs.js:107:15)
-183 error If you need help, you may report this log at:
-183 error     <http://github.com/isaacs/npm/issues>
-183 error or email it to:
-183 error     <npm-@googlegroups.com>
-184 error System Linux 4.8.8-c9
-185 error command "/home/ubuntu/.nvm/v0.10.12/bin/node" "/home/ubuntu/.nvm/v0.10.12/bin/npm" "install" "js2xmlparser"
-186 error cwd /home/ubuntu/workspace
-187 error node -v v0.10.12
-188 error npm -v 1.2.32
-189 verbose exit [ 1, true ]
+68 silly gunzTarPerm extractEntry lib/utils.d.ts
+69 verbose read json /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
+70 silly lockFile da4a118b-kspace-node-modules-js2xmlparser tar:///home/ubuntu/workspace/node_modules/js2xmlparser
+71 silly lockFile da4a118b-kspace-node-modules-js2xmlparser tar:///home/ubuntu/workspace/node_modules/js2xmlparser
+72 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
+73 silly lockFile ab6c7fde-m-js2xmlparser-3-0-0-package-tgz tar:///home/ubuntu/.npm/js2xmlparser/3.0.0/package.tgz
+74 info preinstall js2xmlparser@3.0.0
+75 verbose from cache /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
+76 verbose readDependencies using package.json deps
+77 verbose from cache /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
+78 verbose readDependencies using package.json deps
+79 verbose cache add [ 'xmlcreate@^1.0.1', null ]
+80 verbose cache add name=undefined spec="xmlcreate@^1.0.1" args=["xmlcreate@^1.0.1",null]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'xmlcreate@^1.0.1',
+81 verbose parsed url   path: 'xmlcreate@^1.0.1',
+81 verbose parsed url   href: 'xmlcreate@^1.0.1' }
+82 verbose cache add name="xmlcreate" spec="^1.0.1" args=["xmlcreate","^1.0.1"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '^1.0.1',
+83 verbose parsed url   path: '^1.0.1',
+83 verbose parsed url   href: '^1.0.1' }
+84 verbose addNamed [ 'xmlcreate', '^1.0.1' ]
+85 verbose addNamed [ null, null ]
+86 silly lockFile 20802e48-xmlcreate-1-0-1 xmlcreate@^1.0.1
+87 verbose lock xmlcreate@^1.0.1 /home/ubuntu/.npm/20802e48-xmlcreate-1-0-1.lock
+88 info addNameTag [ 'xmlcreate', '^1.0.1' ]
+89 verbose url raw xmlcreate
+90 verbose url resolving [ 'https://registry.npmjs.org/', './xmlcreate' ]
+91 verbose url resolved https://registry.npmjs.org/xmlcreate
+92 info trying registry request attempt 1 at 22:00:25
+93 verbose etag "58be0fdf-36a2"
+94 http GET https://registry.npmjs.org/xmlcreate
+95 http 304 https://registry.npmjs.org/xmlcreate
+96 silly registry.get cb [ 304,
+96 silly registry.get   { date: 'Sat, 11 Mar 2017 22:00:25 GMT',
+96 silly registry.get     via: '1.1 varnish',
+96 silly registry.get     'cache-control': 'max-age=300',
+96 silly registry.get     etag: '"58be0fdf-36a2"',
+96 silly registry.get     age: '0',
+96 silly registry.get     connection: 'keep-alive',
+96 silly registry.get     'x-served-by': 'cache-lhr6338-LHR',
+96 silly registry.get     'x-cache': 'MISS',
+96 silly registry.get     'x-cache-hits': '0',
+96 silly registry.get     'x-timer': 'S1489269625.926968,VS0,VE17',
+96 silly registry.get     vary: 'Accept-Encoding' } ]
+97 verbose etag xmlcreate from cache
+98 silly lockFile 20802e48-xmlcreate-1-0-1 xmlcreate@^1.0.1
+99 silly lockFile 20802e48-xmlcreate-1-0-1 xmlcreate@^1.0.1
+100 verbose about to build /home/ubuntu/workspace/node_modules/js2xmlparser
+101 info /home/ubuntu/workspace/node_modules/js2xmlparser unbuild
+102 verbose from cache /home/ubuntu/workspace/node_modules/js2xmlparser/package.json
+103 info preuninstall js2xmlparser@3.0.0
+104 info uninstall js2xmlparser@3.0.0
+105 verbose true,/home/ubuntu/workspace/node_modules,/home/ubuntu/workspace/node_modules unbuild js2xmlparser@3.0.0
+106 info postuninstall js2xmlparser@3.0.0
+107 error Error: No compatible version found: xmlcreate@'^1.0.1'
+107 error Valid install targets:
+107 error ["0.1.0","0.1.1","1.0.0","1.0.1","1.0.2"]
+107 error     at installTargetsError (/home/ubuntu/.nvm/v0.10.12/lib/node_modules/npm/lib/cache.js:719:10)
+107 error     at /home/ubuntu/.nvm/v0.10.12/lib/node_modules/npm/lib/cache.js:641:10
+107 error     at saved (/home/ubuntu/.nvm/v0.10.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+107 error     at Object.oncomplete (fs.js:107:15)
+108 error If you need help, you may report this log at:
+108 error     <http://github.com/isaacs/npm/issues>
+108 error or email it to:
+108 error     <npm-@googlegroups.com>
+109 error System Linux 4.8.8-c9
+110 error command "/home/ubuntu/.nvm/v0.10.12/bin/node" "/home/ubuntu/.nvm/v0.10.12/bin/npm" "install" "js2xmlparser" "--node_modules"
+111 error cwd /home/ubuntu/workspace
+112 error node -v v0.10.12
+113 error npm -v 1.2.32
+114 verbose exit [ 1, true ]
