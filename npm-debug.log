@@ -42,21 +42,21 @@
 27 verbose url raw async
 28 verbose url resolving [ 'https://registry.npmjs.org/', './async' ]
 29 verbose url resolved https://registry.npmjs.org/async
-30 info trying registry request attempt 1 at 11:58:36
+30 info trying registry request attempt 1 at 12:17:23
 31 verbose etag "58c2479d-1e0d6"
 32 http GET https://registry.npmjs.org/async
 33 http 304 https://registry.npmjs.org/async
 34 silly registry.get cb [ 304,
-34 silly registry.get   { date: 'Sun, 12 Mar 2017 11:58:36 GMT',
+34 silly registry.get   { date: 'Sun, 12 Mar 2017 12:17:23 GMT',
 34 silly registry.get     via: '1.1 varnish',
 34 silly registry.get     'cache-control': 'max-age=300',
 34 silly registry.get     etag: '"58c2479d-1e0d6"',
-34 silly registry.get     age: '0',
+34 silly registry.get     age: '207',
 34 silly registry.get     connection: 'keep-alive',
-34 silly registry.get     'x-served-by': 'cache-lcy1142-LCY',
+34 silly registry.get     'x-served-by': 'cache-lcy1138-LCY',
 34 silly registry.get     'x-cache': 'HIT',
 34 silly registry.get     'x-cache-hits': '1',
-34 silly registry.get     'x-timer': 'S1489319916.446584,VS0,VE18',
+34 silly registry.get     'x-timer': 'S1489321043.622140,VS0,VE0',
 34 silly registry.get     vary: 'Accept-Encoding' } ]
 35 verbose etag async from cache
 36 silly addNameRange number 2 { name: 'async', range: '', hasData: true }
@@ -366,21 +366,21 @@
 185 verbose url raw lodash
 186 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
 187 verbose url resolved https://registry.npmjs.org/lodash
-188 info trying registry request attempt 1 at 11:58:36
+188 info trying registry request attempt 1 at 12:17:23
 189 verbose etag "58c40682-290a5"
 190 http GET https://registry.npmjs.org/lodash
 191 http 304 https://registry.npmjs.org/lodash
 192 silly registry.get cb [ 304,
-192 silly registry.get   { date: 'Sun, 12 Mar 2017 11:58:36 GMT',
+192 silly registry.get   { date: 'Sun, 12 Mar 2017 12:17:23 GMT',
 192 silly registry.get     via: '1.1 varnish',
 192 silly registry.get     'cache-control': 'max-age=300',
 192 silly registry.get     etag: '"58c40682-290a5"',
-192 silly registry.get     age: '126',
+192 silly registry.get     age: '251',
 192 silly registry.get     connection: 'keep-alive',
-192 silly registry.get     'x-served-by': 'cache-lcy1129-LCY',
+192 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
 192 silly registry.get     'x-cache': 'HIT',
 192 silly registry.get     'x-cache-hits': '1',
-192 silly registry.get     'x-timer': 'S1489319916.735613,VS0,VE1',
+192 silly registry.get     'x-timer': 'S1489321043.923438,VS0,VE0',
 192 silly registry.get     vary: 'Accept-Encoding' } ]
 193 verbose etag lodash from cache
 194 silly lockFile aa207d30-lodash-4-14-0 lodash@^4.14.0
