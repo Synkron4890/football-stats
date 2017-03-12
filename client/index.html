@@ -23,7 +23,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.5.1.min.js"></script>
     <script type="text/javascript">
-    
+      $(document).ready(function(){
+        $(".nav-tabs a").click(function(){
+            $(this).tab('show');
+        });
+      });
     </script>
     
   </head>
@@ -60,11 +64,7 @@
     </div>
     
     <script>
-        $(document).ready(function(){
-            $(".nav-tabs a").click(function(){
-                $(this).tab('show');
-            });
-        });
+        
     </script>
     
   </body>

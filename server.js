@@ -7,7 +7,7 @@ var js2xmlparser = require("js2xmlparser");
 var xslt = require('node_xslt');
 
 var router = express();
-var router = http.createServer(router);
+var server = http.createServer(router);
 
 router.use(express.static(path.resolve(__dirname, 'client')));
 router.use(bodyParser.urlencoded({extended: true}));
