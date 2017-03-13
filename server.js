@@ -26,6 +26,20 @@ router.get('/get/json', function(req, res) {
   res.end(JSON.stringify(obj));
 });
 
+//HTML Produced by XSL Transformation
+router.get('/Players.html', function(req, res){
+  
+  //Read XML and XSL files
+  var stylesheet=xslt.readXsltFile('Players.xsl');
+  var doc=xslt.readXmlFile('Players.xml');
+  
+  //Transformation
+  var result=xslt.transform(stylesheet, doc, []);
+  
+  //Creating the result
+  res.send(result);
+  
+});
 
 server.listen(process.env.PORT || 3000, process.env.IP || "0.0.0.0", function(){
   var addr = server.address();
